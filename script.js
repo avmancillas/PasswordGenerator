@@ -83,26 +83,26 @@ function generatePassword(){
   var possibleCharacters = [];
   //Array to contain one of each type of chosen character to make sure one is chosen
   var guaranteedCharacters = [];
-  // Conditional statement that adds array of upper characters into array of possible characters based on user input
+  // Conditional statement that adds array of upper characters into array of possible characters based on input
   // Push new random upper character to guaranteedCharacters
   if (options.hasUpperCharacters){
     possibleCharacters = possibleCharacters.concat(upperCharacters);
     guaranteedCharacters.push(getRandom(upperCharacters));
   }
-  // Conditional statement that adds array of lowercase characters into array of possible characters based on user input
+  // Conditional statement that adds array of lowercase characters into array of possible characters based on input
   // Push new random lower-cased character to guaranteedCharacters
   if (options.hasLowerCasedCharacters){
     possibleCharacters = possibleCharacters.concat(lowerCharacters);
     guaranteedCharacters.push(getRandom(lowerCharacters));
   }
-  // Conditional statement that adds array of numeric characters into array of possible characters based on user input
+  // Conditional statement that adds array of numeric characters into array of possible characters based on input
   // Push new random numeric character to guaranteedCharacters
   if (options.hasNumericCharacters){
     possibleCharacters = possibleCharacters.concat(numericCharacters);
     guaranteedCharacters.push(getRandom(numericCharacters));
 
   }
-  //// Conditional statement that adds array of special characters into array of possible characters based on user input
+  //// Conditional statement that adds array of special characters into array of possible characters based on input
   // Push new random special character to guaranteedCharacters
   if (options.hasSpecialCharacters){
     possibleCharacters = possibleCharacters.concat(specialCharacters);
@@ -118,7 +118,7 @@ function generatePassword(){
   for (var i = 0; i< guaranteedCharacters.length; i++){
     result[i] =guaranteedCharacters[i];
   }
-  // Transform the result into a string and pass into writePassword
+  // Transform the result into a string and go into writePassword
   return result.join('');
 
 }
