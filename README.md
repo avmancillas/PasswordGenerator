@@ -8,8 +8,6 @@
 
   *[Description](#description)
 
-  *[Installation](#installation)
-
   *[Usage](#usage)
 
   *[Guidelines](#guidelines)
