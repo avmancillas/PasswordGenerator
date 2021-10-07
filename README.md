@@ -15,12 +15,12 @@
   *[Guidelines](#guidelines)
 
   
-  # **Description**
+  # **Description:**
   ### I refactored this code so that it would generate a passwork that was between 8 to 128 characters long and included upper case, lower case, numbers, and       special characters.
   ![screenshot1](./screenshot1.png) 
   
   
-  # **Usage**
+  # **Usage:**
   ### This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.
   
    
